@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: montserrat, arial, verdana;
+  background: rgb(113, 111, 151);
+  background: linear-gradient(90deg, rgb(112, 106, 230) 0%, rgb(187, 128, 204) 10%, rgba(116,9,121,0.7456232492997199) 36%,
+ rgb(203, 232, 237) 100%);
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin:1rem;
+  padding:20px;
+
+}
+.form-container{
+  border-top: 5px solid black;
+  /* border:2px solid blueviolet; */
+  margin:20px auto;
+  padding: 20px;
+  background-color: #c0bdbd;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width:400px;
+  background: linear-gradient(rgba(214, 131, 41, 0.6),
+   rgba(195, 135, 219, 0.6));
+  border-radius: 5px;
+}
+.div-container{
+  border:2px solid black;
+  
+
+}
+input{
+  height:40px;
+  width:99%;
+  transition: all;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+  font-size:1.1rem;
+}
+
+h2{
+  border-bottom: 2px solid black;
+  
+}
+input:hover{
+  transform: scale(1.02);
+}
+label{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 550;
+}
+#btn{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color:#5594d7;
+  margin:5px auto;
+  padding:10px;
+  font-size: 1rem;
+  font-weight: 550;
+  border-radius: 20%;
+  transition-duration: 0.4s;
+}
+#btn:hover{
+  transform: scale(1.1);
+}
+.table-container{
+  margin:40px auto;
+  padding:20px;
+  border-top:3px solid black;
+  border-bottom: 3px solid black;
+  border-radius:30px;
+  background-color:rgb(179, 174, 174);
+}
+
+
+
+.tableContent{
+  border:1px solid black;
+  margin-top:20px;
+}
+.tableHead{
+  border:1px solid black;
+  padding:5px;
+}
+.tableData{
+  border:1px solid black;
+  padding:5px;
+}
+.error-msg{
+  color:rgba(203, 53, 53, 0.934);
+  font-size: 0.9rem;
+}
+.error-first{
+  border:2px solid red;
+}
+.error-last{
+  border:2px solid red;
+}
+.error-email{
+  border:2px solid red;
+}
+.error-phone{
+  border:2px solid red;
+}
